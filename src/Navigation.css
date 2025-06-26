@@ -1,0 +1,30 @@
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    background-color: white;
+}
+
+#nav-left, #nav-right {
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+#nav-right {
+    font-weight: 500;
+}
+
+#languages {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
