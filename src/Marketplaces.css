@@ -1,0 +1,17 @@
+#marketplaces {
+    color: #1e556b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+    padding-bottom: 120px;
+}
+
+#marketplaces-icons {
+    display: flex;
+    gap: 10px;
+}

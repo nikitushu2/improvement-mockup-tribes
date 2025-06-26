@@ -3,6 +3,8 @@ import Landing from "./Landing";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import Communities from "./Communities";
+import Marketplaces from "./Marketplaces";
+import HowItWorks from "./HowItWorks";
 
 const theme = createTheme({
   palette: {
@@ -22,6 +24,8 @@ function App() {
       <Navigation />
       <Landing />
       <Communities />
+      <Marketplaces />
+      <HowItWorks />
     </ThemeProvider>
   );
 }
